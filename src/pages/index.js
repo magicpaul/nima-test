@@ -1,9 +1,10 @@
 import React from "react";
 import theme from "theme";
-import { Theme, Link, Image, Box, Text } from "@quarkly/widgets";
+import { Theme, Link, Image, Box, Section, Text } from "@quarkly/widgets";
 import { Helmet } from "react-helmet";
 import { GlobalQuarklyPageStyles } from "global-page-styles";
-import { Override, Menu, Section, StackItem, Stack } from "@quarkly/components";
+import { Override, Menu, StackItem, Stack } from "@quarkly/components";
+import * as Components from "components";
 export default (() => {
 	return <Theme theme={theme}>
 		<GlobalQuarklyPageStyles pageUrl={"index"} />
@@ -47,24 +48,27 @@ export default (() => {
 				</Menu>
 			</Box>
 		</Section>
-		<Section
-			background="linear-gradient(0deg,rgba(4, 8, 12, 0.6) 0%,rgba(4, 8, 12, 0.6) 100%),--color-darkL2 url(https://scontent.fbhd1-1.fna.fbcdn.net/v/t1.6435-9/120087185_167448438370301_1550819599512405992_n.jpg?_nc_cat=104&ccb=1-3&_nc_sid=8bfeb9&_nc_ohc=yHXUG81oTzQAX9uEysN&_nc_ht=scontent.fbhd1-1.fna&oh=3a845fc9e8977212e6f03890d834b6fa&oe=60AE25B0) center/cover"
-			padding="64px 0"
-			sm-padding="40px 0"
-			color="--light"
-			font="--base"
-		>
-			<Stack>
-				<StackItem width="75%" lg-width="100%">
-					<Override slot="StackItemContent" flex-direction="column" />
-					<Text font="--headline1">
-						Equipping and{" "}
-						<br />
-						Encouraging Preachers
-					</Text>
-				</StackItem>
-			</Stack>
-		</Section>
+		<Components.QuarklycommunityKitBgImageParallax imageURL="https://images.unsplash.com/photo-1558541966-d1071f7329bd?ixlib=rb-1.2.1&q=85&fm=jpg&crop=entropy&cs=srgb&w=2000">
+			<Section
+				background="linear-gradient(0deg,rgba(4, 8, 12, 0.6) 0%,rgba(4, 8, 12, 0.6) 100%)"
+				padding="64px 0"
+				sm-padding="40px 0"
+				color="--light"
+				font="--base"
+			>
+				<Components.QuarklycommunityKitBgImageParallax />
+				<Stack>
+					<StackItem width="75%" lg-width="100%">
+						<Override slot="StackItemContent" flex-direction="column" />
+						<Text font="--headline1">
+							Equipping and{" "}
+							<br />
+							Encouraging Preachers
+						</Text>
+					</StackItem>
+				</Stack>
+			</Section>
+		</Components.QuarklycommunityKitBgImageParallax>
 		<Section
 			padding="60px 0"
 			sm-padding="40px 0"
