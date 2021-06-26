@@ -3,8 +3,15 @@ import { transformVar } from "@quarkly/atomize";
 import { createGlobalStyle } from "styled-components";
 
 const pageStyles = {
-    "404": {},
-    "index": {}
+    "404": {
+        "font": "16px --fontFamily-googlePoppins"
+    },
+    "index": {
+        "font": "16px --fontFamily-googlePoppins"
+    },
+    "index1": {
+        "font": "16px --fontFamily-googlePoppins"
+    }
 };
 
 const PageStyles = createGlobalStyle`

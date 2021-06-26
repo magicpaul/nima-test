@@ -3,19 +3,19 @@ import theme from "theme";
 import { Theme, Link, Image, Box, Section, Text } from "@quarkly/widgets";
 import { Helmet } from "react-helmet";
 import { GlobalQuarklyPageStyles } from "global-page-styles";
-import { Override, Menu, StackItem, Stack } from "@quarkly/components";
+import { Override, Menu, StackItem, Stack, SocialMedia } from "@quarkly/components";
 import * as Components from "components";
 export default (() => {
 	return <Theme theme={theme}>
 		<GlobalQuarklyPageStyles pageUrl={"index"} />
 		<Helmet>
 			<title>
-				Quarkly export
+				NIMA: NI Ministry Assembly
 			</title>
 			<meta name={"description"} content={"Web site created using quarkly.io"} />
-			<link rel={"shortcut icon"} href={"https://uploads.quarkly.io/readme/cra/favicon-32x32.ico"} type={"image/x-icon"} />
+			<link rel={"shortcut icon"} href={"https://uploads.quarkly.io/60871a736de461001eb8890a/images/nima%202.png?v=2021-04-26T20:34:38.222Z"} type={"image/x-icon"} />
 		</Helmet>
-		<Section background="#2d2d31">
+		<Section background="--color-dark">
 			<Box
 				display="flex"
 				padding="12px 0"
@@ -24,7 +24,7 @@ export default (() => {
 				flex-direction="row"
 				md-flex-direction="column"
 			>
-				<Image height="64px" src="https://uploads.quarkly.io/60871a736de461001eb8890a/images/nima%202.png?v=2021-04-26T20:34:38.222Z" width="64px" />
+				<Image width="64px" height="64px" src="https://uploads.quarkly.io/60871a736de461001eb8890a/images/nima%202.png?v=2021-04-26T20:34:38.222Z" />
 				<Menu
 					display="flex"
 					justify-content="center"
@@ -32,18 +32,13 @@ export default (() => {
 					font-weight="700"
 					md-flex-direction="column"
 					md-align-items="center"
+					color="--green"
 				>
-					<Override
-						slot="link"
-						text-decoration="none"
-						color="--green"
-						padding="6px 12px"
-						border-color="--color-green"
-					/>
-					<Override slot="link-active" color="--primary" />
-					<Override slot="item" padding="6px" border-color="--color-green" />
+					<Override slot="link" text-decoration="none" color="--green" padding="6px 12px" />
+					<Override slot="link-active" color="--green" />
+					<Override slot="item" padding="6px" color="--green" />
 					<Override slot="link-index" color="--green">
-						index
+						Home
 					</Override>
 				</Menu>
 			</Box>
@@ -154,9 +149,6 @@ export default (() => {
 				<StackItem width="50%" lg-width="100%">
 					<Override slot="StackItemContent" flex-direction="column" />
 					<Stack>
-						<StackItem width="100%" lg-width="33.3%" md-width="100%">
-							<Override slot="StackItemContent" padding-bottom="100%" background="url(https://lh3.googleusercontent.com/proxy/rKlsQWCFja9t2sDDVwe9XOi4rgCC1E0YkZEH42D_d8JDJVUEshV-5pTVIruwiq7_tbfGqN5UFY_W_s8xmL_RkoRmiDjTcO15MeMunjLi94xMakYOjRYUJo5eJL15QmmRR1TFTuZf4UAu5zHnnxJ7hSWJ9z8YgcybikMWAdNK4-aG4Bpn_6c) center/cover" />
-						</StackItem>
 						<StackItem width="50%" lg-width="33.3%" md-width="50%" sm-width="100%">
 							<Override slot="StackItemContent" padding-bottom="100%" background="url(data:image/jpeg;base64,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) center/cover" />
 						</StackItem>
@@ -167,29 +159,24 @@ export default (() => {
 				</StackItem>
 			</Stack>
 		</Section>
-		<Section background-color="--dark" text-align="center" padding="32px 0">
-			<Menu
-				display="flex"
-				justify-content="center"
-				font="--lead"
-				font-weight="700"
-				margin="-6px 0 16px"
-				md-flex-direction="column"
-				md-align-items="center"
+		<Section background="--color-dark" padding="60px 0" sm-padding="40px 0">
+			<SocialMedia
+				facebook="https://www.facebook.com/quarklyapp/"
+				twitter="https://twitter.com/quarklyapp"
+				youtube="https://www.youtube.com/channel/UCK5bXs2L0bbSMQ82BQ3hIkw"
+				vkontakte="https://vk.com/quarklyapp"
+				telegram="https://t.me/joinchat/DqSYDhS0R9nMRvOtFbIxrQ"
 			>
-				<Override slot="link" text-decoration="none" color="--light" padding="6px 12px" />
-				<Override slot="link-active" color="--primary" />
-				<Override slot="item" padding="6px 0px" />
-			</Menu>
-			<Link
-				href="mailto:hello@company.com"
-				text-decoration-line="none"
-				variant="--base"
-				color="--grey"
-				hover-color="--primary"
-			>
-				hello@company.com
-			</Link>
+				<Override
+					slot="link"
+					border-radius="50%"
+					color="--light"
+					hover-color="--green"
+					background="transparent"
+					hover-background="transparent"
+					margin="0 8px"
+				/>
+			</SocialMedia>
 		</Section>
 		<Link
 			font={"--capture"}

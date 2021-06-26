@@ -8,10 +8,10 @@ export default (() => {
 		<GlobalQuarklyPageStyles pageUrl={"404"} />
 		<Helmet>
 			<title>
-				Quarkly export
+				NIMA: NI Ministry Assembly
 			</title>
 			<meta name={"description"} content={"Web site created using quarkly.io"} />
-			<link rel={"shortcut icon"} href={"https://uploads.quarkly.io/readme/cra/favicon-32x32.ico"} type={"image/x-icon"} />
+			<link rel={"shortcut icon"} href={"https://uploads.quarkly.io/60871a736de461001eb8890a/images/nima%202.png?v=2021-04-26T20:34:38.222Z"} type={"image/x-icon"} />
 		</Helmet>
 		<Link
 			font={"--capture"}
