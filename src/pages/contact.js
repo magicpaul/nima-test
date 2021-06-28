@@ -67,7 +67,7 @@ export default (() => {
 				<StackItem width="100%" lg-width="100%" lg-order="2">
 					<Override slot="StackItemContent" text-align="center" />
 					<Stack>
-						<StackItem width="50%" sm-width="100%">
+						<StackItem width="50%" md-width="100%">
 							<Override
 								slot="StackItemContent"
 								background="--color-green"
@@ -91,7 +91,7 @@ export default (() => {
 								The Steering Group come from a variety of traditions, but with a united goal - to encourage and equip preachers.
 							</Text>
 						</StackItem>
-						<StackItem width="25%" sm-width="100%">
+						<StackItem width="25%" md-width="50%">
 							<Override slot="StackItemContent" background="--color-lightD1" padding="20px" flex-direction="column" />
 							<Box
 								width="170px"
@@ -121,7 +121,7 @@ export default (() => {
 								(Chair).
 							</Text>
 						</StackItem>
-						<StackItem width="25%" sm-width="100%">
+						<StackItem width="25%" md-width="50%">
 							<Override slot="StackItemContent" background="--color-lightD1" padding="20px" flex-direction="column" />
 							<Box
 								width="170px"
@@ -141,7 +141,7 @@ export default (() => {
 								,
 							</Text>
 						</StackItem>
-						<StackItem width="25%" sm-width="100%">
+						<StackItem width="25%" md-width="50%">
 							<Override slot="StackItemContent" background="--color-lightD1" padding="20px" flex-direction="column" />
 							<Box
 								width="170px"
@@ -160,7 +160,7 @@ export default (() => {
 								</Link>
 							</Text>
 						</StackItem>
-						<StackItem width="25%" sm-width="100%">
+						<StackItem width="25%" md-width="50%">
 							<Override slot="StackItemContent" background="--color-lightD1" padding="20px" flex-direction="column" />
 							<Box
 								width="170px"
@@ -179,7 +179,7 @@ export default (() => {
 								</Link>
 							</Text>
 						</StackItem>
-						<StackItem width="25%" sm-width="100%">
+						<StackItem width="25%" md-width="50%">
 							<Override slot="StackItemContent" background="--color-lightD1" padding="20px" flex-direction="column" />
 							<Box
 								width="170px"
@@ -198,7 +198,7 @@ export default (() => {
 								{" "}Training and Resources Manager
 							</Text>
 						</StackItem>
-						<StackItem width="25%" sm-width="100%">
+						<StackItem width="25%" md-width="50%">
 							<Override slot="StackItemContent" background="--color-lightD1" padding="20px" flex-direction="column" />
 							<Box
 								width="170px"
@@ -226,7 +226,7 @@ export default (() => {
 								</Link>
 							</Text>
 						</StackItem>
-						<StackItem width="25%" sm-width="100%">
+						<StackItem width="25%" md-width="50%">
 							<Override slot="StackItemContent" background="--color-lightD1" padding="20px" flex-direction="column" />
 							<Box
 								width="170px"
