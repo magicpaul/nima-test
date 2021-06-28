@@ -22,7 +22,7 @@ export default {
 		},
 		"60d78aee3f4eb1001ea273c0": {
 			"id": "60d78aee3f4eb1001ea273c0",
-			"pageUrl": "index1",
+			"pageUrl": "contact",
 			"name": "Contact"
 		}
 	},

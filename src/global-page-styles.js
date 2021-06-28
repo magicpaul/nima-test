@@ -9,7 +9,7 @@ const pageStyles = {
     "index": {
         "font": "16px --fontFamily-googlePoppins"
     },
-    "index1": {
+    "contact": {
         "font": "16px --fontFamily-googlePoppins"
     }
 };
