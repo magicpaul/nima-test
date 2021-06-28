@@ -160,13 +160,7 @@ export default (() => {
 			</Stack>
 		</Section>
 		<Section background="--color-dark" padding="60px 0" sm-padding="40px 0">
-			<SocialMedia
-				facebook="https://www.facebook.com/quarklyapp/"
-				twitter="https://twitter.com/quarklyapp"
-				youtube="https://www.youtube.com/channel/UCK5bXs2L0bbSMQ82BQ3hIkw"
-				vkontakte="https://vk.com/quarklyapp"
-				telegram="https://t.me/joinchat/DqSYDhS0R9nMRvOtFbIxrQ"
-			>
+			<SocialMedia facebook="https://www.facebook.com/nima.preaching" twitter="https://twitter.com/nimapreaching" instagram="http://www.instagram.com/niministry_assembly">
 				<Override
 					slot="link"
 					border-radius="50%"

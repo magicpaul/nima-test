@@ -62,12 +62,27 @@ export default (() => {
 				</Stack>
 			</Section>
 		</Components.QuarklycommunityKitBgImageParallax>
-		<Section padding="64px 0" sm-padding="40px 0" font="--base" color="--dark">
+		<Section>
 			<Stack>
-				<StackItem width="50%" lg-width="100%" lg-order="2">
+				<StackItem width="100%" lg-width="100%" lg-order="2">
 					<Override slot="StackItemContent" text-align="center" />
 					<Stack>
 						<StackItem width="50%" sm-width="100%">
+							<Override slot="StackItemContent" background="--color-green" padding="20px" flex-direction="column" />
+							<Text color="--light" letter-spacing="1px" text-transform="uppercase" margin="0">
+								The NIMA Steering Group
+							</Text>
+							<Text
+								color="--light"
+								as="h3"
+								font="--headline2"
+								md-font="--headline3"
+								margin="0"
+							>
+								The Steering Group come from a variety of traditions, but with a united goal - to encourage and equip preachers.
+							</Text>
+						</StackItem>
+						<StackItem width="25%" sm-width="100%">
 							<Override slot="StackItemContent" background="--color-lightD1" padding="20px" flex-direction="column" />
 							<Box
 								width="170px"
@@ -97,7 +112,7 @@ export default (() => {
 								(Chair).
 							</Text>
 						</StackItem>
-						<StackItem width="50%" sm-width="100%">
+						<StackItem width="25%" sm-width="100%">
 							<Override slot="StackItemContent" background="--color-lightD1" padding="20px" flex-direction="column" />
 							<Box
 								width="170px"
@@ -117,7 +132,7 @@ export default (() => {
 								,
 							</Text>
 						</StackItem>
-						<StackItem width="50%" sm-width="100%">
+						<StackItem width="25%" sm-width="100%">
 							<Override slot="StackItemContent" background="--color-lightD1" padding="20px" flex-direction="column" />
 							<Box
 								width="170px"
@@ -136,7 +151,7 @@ export default (() => {
 								</Link>
 							</Text>
 						</StackItem>
-						<StackItem width="50%" sm-width="100%">
+						<StackItem width="25%" sm-width="100%">
 							<Override slot="StackItemContent" background="--color-lightD1" padding="20px" flex-direction="column" />
 							<Box
 								width="170px"
@@ -155,7 +170,7 @@ export default (() => {
 								</Link>
 							</Text>
 						</StackItem>
-						<StackItem width="50%" sm-width="100%">
+						<StackItem width="25%" sm-width="100%">
 							<Override slot="StackItemContent" background="--color-lightD1" padding="20px" flex-direction="column" />
 							<Box
 								width="170px"
@@ -174,7 +189,7 @@ export default (() => {
 								{" "}Training and Resources Manager
 							</Text>
 						</StackItem>
-						<StackItem width="50%" sm-width="100%">
+						<StackItem width="25%" sm-width="100%">
 							<Override slot="StackItemContent" background="--color-lightD1" padding="20px" flex-direction="column" />
 							<Box
 								width="170px"
@@ -202,7 +217,7 @@ export default (() => {
 								</Link>
 							</Text>
 						</StackItem>
-						<StackItem width="50%" sm-width="100%">
+						<StackItem width="25%" sm-width="100%">
 							<Override slot="StackItemContent" background="--color-lightD1" padding="20px" flex-direction="column" />
 							<Box
 								width="170px"
@@ -223,16 +238,6 @@ export default (() => {
 							</Text>
 						</StackItem>
 					</Stack>
-				</StackItem>
-				<StackItem width="50%" lg-width="100%">
-					<Override slot="StackItemContent" lg-margin-bottom="24px" flex-direction="column" />
-					<Text color="--grey" letter-spacing="1px" text-transform="uppercase" margin="0 0 10px 0">
-						The NIMA Steering Group
-					</Text>
-					<Text as="h2" font="--headline2" md-font="--headline3" margin="0">
-						The Steering Group come from a variety of traditions, but with a united goal - to encourage and equip preachers.
-						<br />
-					</Text>
 				</StackItem>
 			</Stack>
 		</Section>
@@ -278,7 +283,7 @@ export default (() => {
 								<Input as="textarea" rows="4" width="100%" name="message" />
 							</StackItem>
 							<StackItem width="100%">
-								<Button>
+								<Button background="--color-green">
 									Send
 								</Button>
 							</StackItem>
@@ -294,7 +299,7 @@ export default (() => {
 			color="--light"
 			hover-color="--green"
 		>
-			<SocialMedia facebook="https://www.facebook.com/quarklyapp/" twitter="https://twitter.com/quarklyapp" youtube="https://www.youtube.com/channel/UCK5bXs2L0bbSMQ82BQ3hIkw">
+			<SocialMedia facebook="https://www.facebook.com/nima.preaching" twitter="https://twitter.com/nimapreaching" instagram="http://www.instagram.com/niministry_assembly">
 				<Override
 					slot="link"
 					border-radius="50%"
